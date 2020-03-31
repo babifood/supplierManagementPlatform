@@ -68,8 +68,8 @@
 
 ### 发货清单查询
 
-** 页面名称 shippingListQuery.html
+* 页面名称 shippingListQuery.html
 
 ### 账单状态查询
 
-** 页面名称 accountStatusQuery.html
+* 页面名称 accountStatusQuery.html
