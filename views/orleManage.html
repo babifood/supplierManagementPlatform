@@ -1,0 +1,51 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html" ; charset="utf-8" />
+    <title></title>
+    <link href="../js/bstable/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../js/bstable/css/bootstrap-table.css" rel="stylesheet" type="text/css">
+    <link href="../css/zTreeStyle/zTreeStyle.css" rel="stylesheet" type="text/css" />
+    <link href="../css/table.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body style="background-color: #ecf0f5;font-family: 微软雅黑;color: #475059;min-width: 1000px;overflow: auto">
+    <div class="news_main">
+        <div class="l_left orle_left">
+            <h6>角色列表</h6>
+            <div class="notice_check">
+                <div class="notice_nav r_right paddingBotme">
+                    <P>
+                    <a class="btn btn-default" onclick="add()"><span class="glyphicon glyphicon-plus"></span>新增</a>
+                    <a class="btn btn-default"><span class="glyphicon glyphicon-remove"></span>删除</a>
+                    </P>
+                </div>
+            </div>
+            <ul class="news_table department_table">
+                <li>
+                    <table id="table" class="table_style" style="margin: 0 auto" ></table>
+                </li>
+            </ul>
+        </div>
+        <div class="l_left orle_right">
+            <ul class="nav nav-tabs" id="myTab"> 
+                <li class="active"><a href="#PCMenu" onclick="myTabClick()">后台菜单功能</a></li> 
+                <li><a href="#phoneMenu" onclick="myTabClick()">手机端菜单功能</a></li> 
+                <li><a href="#compaoy" onclick="myTabClick()">公司组织</a></li> 
+              </ul> 
+                 
+              <div class="tab-content"> 
+                <div class="tab-pane active" id="PCMenu">home</div> 
+                <div class="tab-pane" id="phoneMenu">profile</div> 
+                <div class="tab-pane" id="compaoy">messages</div> 
+              </div> 
+        </div>
+    </div>
+    <script src="../js/jquery/jQuery-2.2.0.min.js"></script>
+    <script src="../js/bstable/js/bootstrap.min.js"></script>
+    <script src="../js/bstable/js/bootstrap-table.js"></script>
+    <script src="../js/bstable/js/bootstrap-table-zh-CN.min.js"></script>
+    <script src="../js/layer_v2.1/layer/layer.js"></script>
+    <script src="../js/myJs/orleManage.js"></script>
+</body>
+</html>
